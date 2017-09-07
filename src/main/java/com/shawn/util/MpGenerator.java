@@ -1,4 +1,4 @@
-package com.zy.demo;
+package com.shawn.util;
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
@@ -17,7 +17,7 @@ public class MpGenerator {
     public static void main(String[] args) {
 
         AutoGenerator mpg = new AutoGenerator();
-        // 全局配置
+        // 全局配置ActiveDemo
         GlobalConfig gc = new GlobalConfig();
         gc.setOutputDir("D://develop");   //生成的目录的地址
         gc.setFileOverride(true);
