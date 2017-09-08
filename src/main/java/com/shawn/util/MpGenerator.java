@@ -50,7 +50,7 @@ public class MpGenerator {
         //strategy.setTablePrefix(new String[] { "tlog_", "tsys_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
         strategy.setFieldNaming(NamingStrategy.underline_to_camel);
-        strategy.setInclude(new String[]{"fs_file"}); // 需要生成的表
+        strategy.setInclude(new String[]{"fs_own_share_group_info"}); // 需要生成的表
 
         // strategy.setExclude(new String[]{"test"}); // 排除生成的表
         // 自定义实体父类
