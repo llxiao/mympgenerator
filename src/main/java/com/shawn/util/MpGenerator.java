@@ -94,7 +94,7 @@ public class MpGenerator {
         pc.setMapper("mapper");
         pc.setService("service.group");
         pc.setXml("mapper");
-        pc.setServiceImpl("group.impl");
+        pc.setServiceImpl("service.group.impl");
 
         mpg.setPackageInfo(pc);
 

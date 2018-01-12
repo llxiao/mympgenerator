@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
  * @author Shawn
  * @since ${date}
  */
-@Service
+@Service(value = "${table.serviceImplName}")
 public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}> implements ${table.serviceName} {
 	
 }
