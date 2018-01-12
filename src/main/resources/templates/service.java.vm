@@ -8,7 +8,7 @@ import ${superServiceClassPackage};
  * ${table.comment} 服务类
  * </p>
  *
- * @author ${author}
+ * @author Shawn
  * @since ${date}
  */
 public interface ${table.serviceName} extends ${superServiceClass}<${entity}> {
